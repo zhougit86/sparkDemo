@@ -33,8 +33,10 @@ object first {
 //    System.err.println(answer)
 //    System.err.println(answer1)
 //
-    1.to(10).foreach(u=>println(u))
-
+//    1.to(10).foreach(u=>println(u))
+    for (i <- 1 to 10){
+      System.err.println(i)
+    }
 
   }
 
