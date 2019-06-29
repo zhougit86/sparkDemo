@@ -28,3 +28,12 @@ mkString
 val myMap = new mutable.HashMap[Int,String]
 myMap.+((1,"haha"))
 zip    可以将两个array拼成一个tuple的数组
+
+
+
+def age = privateAge;
+def age_= (Input: Int){privateAge = Input}
+get set 可以这样写的
+age, age_=   需要会有默认值，但是私有的话这两个方法也是私有的
+
+当需要使用构造方法的时候需要使用new这个参数，默认的构造器就是在类名后面跟参数
