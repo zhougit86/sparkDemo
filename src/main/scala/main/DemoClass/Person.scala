@@ -6,10 +6,18 @@ class Person(val banner:String) {
 
   def this(age:Int){
     this("age start")
+    Person.staticMove()
     privateAge = age;
   }
   def age = privateAge;
   def age_= (Input: Int){privateAge = Input}
+}
 
+object Person{
+  var staticId = 0;
 
+  def staticMove(){
+    staticId+=1
+    System.err.println(staticId)
+  }
 }
