@@ -1,6 +1,6 @@
 package main.helloWorld
 
-import main.DemoClass.Person
+import main.DemoClass.{Employee, Person}
 
 object demoClass {
   def main(args:Array[String]): Unit ={
@@ -11,6 +11,10 @@ object demoClass {
     System.err.println(person.age)
     person.age = 10
     System.err.println(person.age)
+
+    System.err.println(person)
+
+    var employee = new Employee()
 
   }
 }

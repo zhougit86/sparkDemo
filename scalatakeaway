@@ -37,3 +37,20 @@ get set 可以这样写的
 age, age_=   需要会有默认值，但是私有的话这两个方法也是私有的
 
 当需要使用构造方法的时候需要使用new这个参数，默认的构造器就是在类名后面跟参数
+
+
+
+Object可以和class一起使用的，Object可以理解为一个静态的东西
+可以拿来实现单例
+以及可以使用Object的apply来替换掉new方法
+
+
+
+Override toString   这些还是有的
+isInstanceOf asInstanceOf 也还是有的
+p match {
+    case xxx: =>   ...
+    case _ =>  ....
+
+}
+class A(a:Int) extends B(a)   这样来写继承的

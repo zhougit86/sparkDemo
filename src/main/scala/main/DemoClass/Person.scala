@@ -11,6 +11,8 @@ class Person(val banner:String) {
   }
   def age = privateAge;
   def age_= (Input: Int){privateAge = Input}
+
+  override def toString: String = getClass.getName + " age:" + privateAge;
 }
 
 object Person{

@@ -10,6 +10,10 @@ object mapOp {
     val myMap = new mutable.HashMap[Int,String]
     myMap.+((1,"haha"))
 
+    val myMap2 = Map("a"->1,"b"->2)
+
+    System.err.println(myMap2.apply("a"))
+
     //元祖
     val myTuple = (1,'a',"haha")
 
