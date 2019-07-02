@@ -54,3 +54,7 @@ p match {
 
 }
 class A(a:Int) extends B(a)   这样来写继承的
+如果一个方法没有方法体就是抽象方法
+在继承的时候，很多方法还是有一些tricky的
+AnyVal AnyRef  继承自Any
+

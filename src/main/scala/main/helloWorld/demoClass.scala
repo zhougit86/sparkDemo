@@ -16,5 +16,9 @@ object demoClass {
 
     var employee = new Employee()
 
+    var otherPerson = new Person(30){
+      System.err.println("no other print")
+    }
+
   }
 }
